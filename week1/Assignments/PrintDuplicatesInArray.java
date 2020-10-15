@@ -34,7 +34,7 @@ public class PrintDuplicatesInArray
 				for (int k = j+1; k < Arr.length; k++) 
 				{
 					if (Arr[j] == Arr[k])
-						System.out.print("," +Arr[k]);
+					System.out.print("," +Arr[k]);
 				}
 			}
 	}
