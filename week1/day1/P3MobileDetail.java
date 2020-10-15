@@ -6,7 +6,7 @@ public class P3MobileDetail
 	private String Color="Black";
 	private Float Price=9000f;
 	//private double IME = 16754237677.89D;
-	public float discount;
+	public float discount,DisRate;
 
 	public int MobileModelNo() {  return Model; }
 	
@@ -16,12 +16,18 @@ public class P3MobileDetail
 	
 	public void Msg() { System.out.println("* * * You got a better offer * * *"); 	}
 	
-	public float discount(float DisRate) 
+	//public float discount(float DisRate) 
+	public float discount() 
 	{
 		if (Price<= 10000)
-		{discount = Price * (-20/100); }
-		else 
-		{discount = Price * (-2/100); }
+		{	discount = Price * (-20/100); 
+			DisRate = Price - discount;
+		}
+		/*else 
+		{	discount = Price * (-2/100); 
+			DisRate = Price - discount;
+		}
+		*/
 		return DisRate;			
 	}
 	
