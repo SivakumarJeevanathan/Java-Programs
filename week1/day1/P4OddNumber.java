@@ -9,6 +9,7 @@ public class P4OddNumber
 		System.out.println("Enter the value to be calculated:");
 		Scanner inputValue = new Scanner(System.in);
 		int value = inputValue.nextInt();
+		inputValue.close();
 		
 		int Sum = 1;
 		

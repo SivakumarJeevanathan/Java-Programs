@@ -23,19 +23,19 @@ public class P3LearnArray {
 		System.out.println("The Length of StrArr is:" +StrArr.length);
 		
 		Arrays.sort(Arr1);
-		System.out.println("The Sorted values of Arr1 is:" );
+		System.out.print("The Sorted values of Arr1 is:" );
 		for (int i = 0; i < Arr1.length; i++) 
 		{
 			System.out.print(" "+Arr1[i]);
 		}
 		
-		System.out.print("The values of StrArr is:" );
+		System.out.print("\nThe values of StrArr is:" );
 		for (int i = 0; i < StrArr.length; i++) 
 		{
 			System.out.print(","+StrArr[i]);
 		}
 		
-		System.out.println("* * * * * * * * * * * * * *");
+		System.out.println("\n* * * * * * * * * * * * * *");
 		System.out.println("The following is 2D array");
 		
 		int[][] values = new int[3][2];
@@ -49,15 +49,7 @@ public class P3LearnArray {
 		for (int i = 0; i < values.length; i++) 
 		{
 			for (int j = 0; j < values[i].length; j++) 
-			{
-				
-				System.out.print(" " +values[i][j]);
-				
-			}
-			
+				{	System.out.print("\t " +values[i][j]);	}
 		}
-		
-
 	}
-
 }

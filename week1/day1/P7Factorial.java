@@ -17,7 +17,7 @@ public class P7Factorial
 					Fact = Fact*i;
 				}
 			//System.out.printf("The Factorial Value is:" +Fact);
-			System.out.print("The Factorial Value of" +MaxValue , " is:", +Fact);
+			System.out.print("The Factorial Value of" + MaxValue +" is:" +Fact);
 		}
 }
 
